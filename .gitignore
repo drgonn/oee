@@ -1,0 +1,11 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+.idea/
+src/app/static/
+node_modules/
+migrations/
+statics/
+

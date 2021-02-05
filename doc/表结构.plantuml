@@ -1,0 +1,107 @@
+@startuml
+Class User {
+	--用户--
+	uid-str-UID
+	name-str-用户名
+	createDate-time-注册时间
+}
+Class Device {
+	--机器--
+	sn-str-编号
+	name-str-名称
+	ip-str-ip地址
+	img-str-图片
+	type-str-类型
+}
+Class Worktime {
+	--机台工作时间--
+	start_time-time-开始时间
+	end_time-time-结束时间
+	seconds-int-运行时间（秒）
+	type-int-时间类型
+	amount-int-加工数量
+	good-int-良品数量
+	glue-float-使用胶量
+}
+Worktime }-- Device
+Class Devicestatu {
+	--机台开关状态--
+	start_time-time-开始时间
+	status-int-状态类型
+}
+Devicestatu }-- Device
+Class Valvetime {
+	--阀工作时间--
+	start_time-time-开始时间
+	end_time-time-结束时间
+	seconds-float-运行时间（秒）
+	volt-float-工作电压（v）
+	amount-int-加工数量
+	good-int-良品数量
+	glue-float-使用胶量
+}
+Valvetime }-- Device
+Valvetime }-- Valve
+Class Valvetype {
+	--阀类型--
+	name-str-名称
+}
+Class Valve {
+	--点胶阀--
+	sn-str-编号
+	name-str-名称
+}
+Valve }-- Valvetype
+Valve }-- Device
+Class Bug {
+	--故障--
+	reason-text-原因
+	start_time-time-时间
+	end_time-time-修好时间
+}
+Bug }-- Device
+Bug }-- Bugtype
+Class Bugtype {
+	--故障类型--
+	name-str-名称
+	sn-str-代码
+	about-text-描述
+}
+Class Alarmtype {
+	--报警--
+	code-str-报警代码
+	mean-text-含义
+	cause-text-可能原因
+	solution-text-解决方案
+}
+Class Alarm {
+	--报警--
+	create_time-time-时间
+}
+Alarm }-- Alarmtype
+Alarm }-- Valve
+Alarm }-- Device
+Class Project {
+	--项目分类--
+	name-str-工作事项
+}
+Class Plan {
+	--项目进度--
+	name-str-工作事项
+	week-int-周
+	current-text-当前进度及完成情况
+	follow-text-后续计划
+	time-time-提交时间
+}
+Plan }-- Project
+Plan }-- User
+Class Message {
+	--通知--
+	title-str-工作事项
+	type-int-类型
+	description-text-消息内容
+	read-bool-消息是否已读
+	ct_time-time-时间
+}
+Message }-- User
+@enduml

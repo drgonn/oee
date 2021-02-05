@@ -1,0 +1,678 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0153)https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&sid=MXI5YzFoMmU2bjZAOGQ2bzBu&isp_domain=&useCDN=0&ssl=true# -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    	<meta name="renderer" content="webkit">
+
+        
+        <meta http-equiv="x-ua-compatible" content="chrome=1 , IE=edge">
+        
+
+		
+			<link rel="shortcut icon" href="https://mail.263.net/staticwm3/wm445/website/images/favourite.ico">
+		
+		
+		<title>263邮箱</title>
+		<link href="./263邮箱_files/jquery.css" rel="stylesheet" type="text/css">
+		<link href="./263邮箱_files/main.css" rel="stylesheet" type="text/css">
+		<link href="./263邮箱_files/skin_original.css" rel="stylesheet" type="text/css" id="changeSkin">
+		<link href="./263邮箱_files/copy-fileTree.css" rel="stylesheet" type="text/css">
+		<link href="./263邮箱_files/jquery.ui.datepicker.css" rel="stylesheet" type="text/css">
+	
+	 <script type="text/javascript" src="./263邮箱_files/jqueryMin.js.下载"></script>
+		<script src="./263邮箱_files/_cn.js.下载"></script>
+		<script type="text/javascript" src="./263邮箱_files/global.js.下载"></script>
+		<script type="text/javascript" src="./263邮箱_files/ZeroClipboard.js.下载"></script>
+		<script>
+			$(document).ready(function() {
+				//加载当前语言包
+				$.lang( Load_Language_Pack );
+				//
+				IndexPageJs.window.resize([{
+						win : $("#treeBox")
+					},{
+						win : $("#tabsHome")
+					},{
+						win : $("#tabCon"),
+						biasH :25
+					}]);
+				$(".checkIcon.fullsearch").find("b").addClass("checked");
+				if(top.Global.Config.custom.corporateAddressBook){
+					$(".qy").remove();
+				}
+			});
+		</script>
+		<script type="text/javascript">
+			var Global = Global || {};
+			Global.Config = {
+	user:{
+		id:0,
+		welcomeStr:'下午好!',
+		usr:'rchen@dongdasz.com',
+		groupId:'33',
+		name:'谌榕',
+		sid:'MXI5YzFoMmU2bjZAOGQ2bzBu',
+		lastIp:'113.118.184.92',
+		ipLocationName:'广东省深圳市',
+		nowIp:'119.123.1.54',
+		nick:'rchen@dongdasz.com',
+		position:'�������ʦ',
+		phone:'',
+		mobile:'+86-18902440855',
+		fax:'',
+		lastlogin:'昨天 15:26',
+		deptId:'0',
+		hasSkyDrive:'true',
+		weatherUrl:'http://mm.263.com/weather/wm_main.html',
+		lastModifyPwdIP:'219.134.218.89',
+		lastModifyDate:'2020-09-29 11:37:46',
+		msid:11,
+		isRzrq:false,
+		isYunYingShangUser:false,
+		isFullSearch:0,
+		cidName:'cid_rchen_dongdasz.com',
+		cid:'TVhJNVl6Rm9NbVUyYmpaQU9HUTJiekJ1'
+	},
+	autoset:{
+		asynLoad:1,
+		mailArrivalNotice:1,
+		autoRecvIntervel:120000,
+		autoSaveIntervel:120000
+	},
+	eminfo:{
+		imfunc:'null',
+		receiver:'null',
+		port:'null',
+		recvid:'null',
+		mailid:'null'
+	},
+	webset:{
+		sendMailStatusFlag:0,
+		showCount:20,
+		rpwithscr:1,
+		rpTitle:1,
+		delJump:0,
+		timeZone:8,
+		nameRule:2,
+		saveSend:2,
+		fontSize:'14',
+		defaultFace:1,
+		clearTrash:1,
+		trashMailDelDays:15,
+		getPop:2,
+		charset:0,
+		style:1,
+		font:'宋体',
+		styleIndex:0,
+		readReceipt:0,
+		frameStyle:2,
+		nwStyle:1,
+		useEditor:1,
+		paddrCount:20,
+		gaddrCount:20,
+		caddrCount:20,
+		colorStyle:'skin_original',
+		myNameActive:1,
+		myName:'谌榕',
+		ueAtUsed:0,
+		webMailImageDisplayMode:2,
+		editWebMailImageDisplayMode:1,
+		removeSendEmailMode:0,
+		isKnown:1,
+		isKnown2:1,
+		isKnown3:1,
+		isKnown4:0,
+		isKnown5:0,
+		HdCollapse:2,
+		mail:1,
+		addressBook:1,
+		mailSetting:1,
+		superAnnex:1,
+		faxMail:1,
+		mailNotify:1,
+		webAlbum:1,
+		isSendRemind:1,
+		remindTimeCharset:0,
+		menuExpand:0,
+		uploadType:1,
+		bodyResizeWidth:335,
+		tbpFlashUploadUrl:'https://superfilter.263.net/fs/v1/upload/',
+		tbpClientUploadUrl:'https://superfilter.263.net',
+		tbpFlashUrl:'https://mm.263.com/wm2e/website/images/SWFUpload.swf',
+		firstLogin:false
+	},
+	custom:{
+		domainName:'',
+		ispDomainName:'263.net',
+		version:2,
+		logoPath:'/wm2e/website/images/domainImages/default/domain_logo_gc.gif',
+		bannerPath:'/wm2e/website/images/domainImages/default/domain_banner.gif',
+		calendarWeb:true,
+		dialyShare:true,
+		bulletinBoard :false,
+		domainNoticeMail:true,
+		weather:true,
+		addPerson:false,
+		help:true,
+		ens:true,
+		corporateAddressBook:false,
+		onlineCustomerService:true,
+		isCloudView:false,
+		isCloudViewTip:false,
+		updateScore:true,
+		defaultSingIn:1,
+		recipientAlias:0,
+		helpUrl:'',
+		title:'',
+		adRightUrl:'',
+		mailtimer:'0',
+		transform:'1',
+		userinfo:'0',
+		userpwd:'0',
+		send_stat:'0',
+		senddomain:'0',
+		domain_stat:'',
+		domain_arr:'',
+		addresser:'0',
+		historyfile:'0',
+		disablemailencypt:'1',
+		undosend:'0',
+		superAnnex:0,
+		faxMail:0,
+		mailNotify:0,
+		chunkUploadTap:1,
+		tfpTap:false
+	},
+	limit:{
+		tabSize:100,
+		eaddrThreshold:1000,
+		hquota:275775488000,
+		mailSize:167772160,
+		mailNum:1000,
+		attSize:125891200,
+		mailNumPerUser:50000,
+		popNum:20,
+		filterNum:200,
+		paddrNum:5000,
+		gaddrNum:1000,
+		sigNum:10,
+		folderNum:2001,
+		folderLevel:15,
+		dirNameLength:20,
+		mailTitleLength:1024,
+		attCount:500,
+		contentLength:4096,
+		pAddrNameLength:128,
+		pAddrEmailLength:256,
+		pAddrCommonLength:256,
+		gAddrNameLength:100,
+		gAddrIntroLength:4096,
+		gAddrEmailCount:200,
+		superCountPerPage:15,
+		ipfaxCountPerPage:15,
+		pInfoNameLength:100,
+		pInfoPhoneLength:20,
+		pInfoMobileLength:20,
+		pInfoFaxLength:20,
+		pInfoPasswdLength:20,
+		signNameLength:40,
+		signTextLength:4096,
+		letterPaperCount:20,
+		autoReplyTextLength:3145728,
+		popServerNameLength:20,
+		popUserLength:256,
+		popPasswd:32,
+		popTimeout:60,
+		popPort:65535,
+		filterNameLength:64,
+		filterTitleLength:128,
+		filterSizeLength:30,
+		filterAutoForwardLength:4096,
+		filterSenderCount:30,
+		filterToCount:30,
+		filterCcCount:10,
+		blackListContentLength:256,
+		mailOpenNum:100,
+		noticeDisplayTime:4,
+		referenceNameLength:50,
+		chunkUploadSize:4194304,
+		fileUploadSize:50
+	},
+	uuc:{
+		uucVersion:false
+	},
+	mixedcloud:{
+		isMixedCloudUser:false,
+		useMixFollow:true,
+		cacheFollow:'',
+		cacheSslFollow:'',
+		hasLocalWmr:false,
+		localWmr:'',
+		mixFollows:[
+			'https://bjspecialwmr.263.net:443'
+		]
+	}
+}
+;
+			//系统路径
+			Global.Config.sysPath = "/wm2e";
+			Global.Config._jsPath = "/staticwm3/wm445";
+			Global.Config.websetPath = function() {
+				var local = location.toString();
+				return ( local.match( /^(https|http|ftp):\/\/[\s\S\n]*?\//ig ) || (local+"/") );
+			};
+			Global.Config.staticPath = function() {
+				var addPath = function( str ) {
+					return ( str ? str+"/" : str );
+				},
+				webset = Global.Config.websetPath(),
+				search = webset ? addPath( Global.Config._jsPath ) : addPath( Global.Config.sysPath );
+				return webset+search;
+			}
+			
+			//个性化title
+			if(Global.Config.custom.domainName !=""){
+				Global.Config.winTitle = Global.Config.custom.domainName;
+			}else if(Global.Config.custom.title != "" && Global.Config.custom.domainName == "" ){
+				Global.Config.winTitle = Global.Config.custom.title;
+			}else{
+				Global.Config.winTitle = "263邮箱";
+			}
+			//无痕迹版
+			if(Global.Config.custom.ispDomainName == "ismail.cn"){
+				Global.Config.winTitle = "电子邮件";
+			}
+			//是否显示ToolBar为汉字
+			Global.Config.toolBarTipsType = 0; //0为显示图标，1为显示汉字
+			//是否个邮
+			Global.Config.isPersonal = false;
+			document.title = Global.Config.winTitle;
+			Global.Config.superUrl = [];
+			Global.leftTreeData = [];
+			var urlParam = "usr="+Global.Config.user.usr+"&sid="+Global.Config.user.sid;
+			
+			Global.Config.language = "cn";
+			//新版超大的变量
+			Global.Config.superUrl.url="mail.263.net%2Fwm2e";
+			Global.Config.superUrl.cid="TVhJNVl6Rm9NbVUyYmpaQU9HUTJiekJ1";
+			Global.addressDept = $.lang("index_001");
+			Global.ifSelectAllDate = false; //是否跨页全选
+			Global.ProductId = "2"; //判断G或G+C用户  2为G+C用户
+			
+			$(document).ready(function() {
+				$('.userName').html( Global.Config.user.name );
+				$('.wid').html( Global.Config.user.nick );
+				if($(".inFullSearch").css('display')=='none'){
+					$(".notFullSearch").show();
+				}else{
+					$(".notFullSearch").hide();
+				}
+			});
+			Global.Config.ssl = "true";//判断是否全程加密
+			
+		</script>
+		
+		<style>
+			.ui-datepicker-trigger { background:url(/staticwm3/wm445/website/images/newImg/icon.png) -131px -646px no-repeat; width:14px; height:14px; display:inline-block; margin-top:2px; cursor:pointer;}
+			.headCustomer .headListPlugin{ display:none }
+			.searchBox , .searchBox_address {display:none}
+			
+			.searchBox .searchMoreText, .searchBox_address .searchMoreText {display:none ; cursor:pointer;}
+			.aTips, .aTips2{display:none}
+			
+			@-moz-document url-prefix(){
+			.ui-datepicker-trigger { height:15px;background:url(/staticwm3/wm445/website/images/newImg/icon.png) -131px -645px no-repeat;}}
+		</style>
+	<script charset="utf-8" src="chrome-extension://pngicgippofneelinabebobnkpmdiphn/js/btype.js"></script><script type="text/javascript" charset="utf-8" src="chrome-extension://pngicgippofneelinabebobnkpmdiphn/js/chrome.js"></script></head>
+	<body>
+	
+	<!-- 新修改的头部 -->
+    <table width="100%" class="header" cellpadding="0" cellspacing="0">
+    	<tbody><tr>
+        	<td>
+				<!-- 左侧区域 -->
+				<div class="head_l_part">
+					<a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" class="logo domain_logo" id="domain_logo" style="visibility: visible;"></a>
+					<div class="searchBlock">
+						<span class="s_input"><input class="iptTxt" type="text" datavalue="&lt;var&gt;indexJs_030&lt;/var&gt;" value="搜索电子邮件..."></span>
+						<span class="s_btn"><input class="searchBtn" type="button"> </span>
+						<span class="s_arrow"><input type="button" class="arrowBtn" name=""></span>
+					</div>
+					
+					<!--邮件 搜索弹出框-->
+					<div class="popBox searchBox">
+						<div class="mailSearch">
+							<ul class="bLine">
+								<li class="searchMoreText all clearfix">
+									<h3>&nbsp;</h3>
+									<h4>
+										包含
+										<span class="blue3">fadsdfasda</span> 的邮件 
+									</h4>
+								</li>
+								<li class="searchMoreText sender clearfix">
+									<h3>发件人</h3>
+									<h4>
+										包含
+										<span class="blue3"></span> 的邮件 
+									</h4>
+								</li>
+								<li class="searchMoreText topic clearfix">
+									<h3>主&nbsp;&nbsp;题</h3>
+									<h4>
+										包含
+										<span class="blue3"></span> 的邮件 
+									</h4>
+								</li>
+								<li class="searchMoreText receiver clearfix">
+									<h3>收件人</h3>
+									<h4>
+										包含
+										<span class="blue3"></span> 的邮件 
+									</h4>
+								</li>
+								<li class="searchMoreText text clearfix fullsearch yunYingShang_hide mixedCloud_hide rzrq_hide" style="display: none;">
+									<h3>正文</h3>
+									<h4>
+										包含
+										<span class="blue3"></span> 的邮件 
+									</h4>
+								</li>
+								<li class="searchMoreText affixName clearfix fullsearch yunYingShang_hide mixedCloud_hide rzrq_hide" style="display: none;">
+									<h3>附件名</h3>
+									<h4>
+										包含
+										<span class="blue3"></span> 的邮件 
+									</h4>
+								</li>
+								
+								
+							</ul>
+						
+							<h2 class="showSuperTxt"><a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" class="showSuper">高级搜索</a></h2>
+						</div>
+						
+						<!--高级搜索-->
+						<ul class="superSearch">
+							<form name="subSuperForm" id="subSuperForm" method="post" action="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true" target="">
+								<table cellpadding="0" cellspacing="0" width="100%" class="marginT5">
+									<!--高级搜索-->
+									<tbody><tr>
+										<td class="title"><strong>高级搜索</strong></td>
+										<td>											
+											<div id="searchFolder" class="s_select_bg wid90 clearfix">
+												<span class="txt">所有邮件</span>
+												<span class="arrow"></span>
+												<input type="hidden" value="" name="folder">
+											</div>
+											<ul class="popBox selectMail"><!--文件列表内容--><li datavalue="1" title="收件箱"><span>收件箱</span></li><li datavalue="2" title="已发送"><span>已发送</span></li><li datavalue="3" title="已删除"><span>已删除</span></li><li datavalue="4" title="草稿"><span>草稿</span></li><li datavalue="5" title="垃圾邮件"><span>垃圾邮件</span></li><li datavalue="10" title="已归档"><span>已归档</span></li></ul>
+										</td>
+									</tr>
+									
+									<!--发件人-->
+									<tr>
+										<td class="title">发件人：</td>
+										<td class="cont"><span class="s_input_bg"><input class="sIptTxt sender" type="text" name="from"></span></td>
+									</tr>
+									
+									<!--收件人-->							
+									<tr>
+										<td class="title">收件人：</td>
+										<td class="cont"><span class="s_input_bg"><input class="sIptTxt receiver" type="text" name="to"></span></td>
+									</tr>
+									
+									<!--主题-->	
+									<tr class="notfullsearch" style="">
+										<td class="title">主题：</td>
+										<td class="cont"><span class="s_input_bg"><input class="sIptTxt topic" type="text" name="title"></span></td>
+									</tr>
+									<!-- 关键字 -->	
+									<tr class="fullsearch yunYingShang_hide mixedCloud_hide rzrq_hide" style="display: none;">
+										<td class="title">关键字：</td>
+										<td class="cont"><span class="s_input_bg"><input id="keywords" class="sIptTxt" type="text"></span></td>
+									</tr>
+									<!-- 全文检索搜索项 -->	
+									<tr class="fullsearch yunYingShang_hide mixedCloud_hide rzrq_hide" style="display: none;">
+									   <td></td>
+										<td class="cont">
+											<div>
+												<span class="massSingleCheck rzrq_hide" style="margin-right:3px;">
+									                <span title="" class="checkIcon fullsearch" id="title" style="margin-top: 0px; display: none;">
+									                    <b class="checked"></b>
+									                </span>
+									                <b class="massSingle" style="font-weight:normal;color:#777">主题</b>
+												</span>		
+												<span class="massSingleCheck rzrq_hide" style="margin-right:3px;">
+									                <span title="" class="checkIcon fullsearch" id="text" style="margin-top: 0px; display: none;">
+									                    <b class="checked"></b>
+									                    <input class="sIptTxt text" type="hidden" name="text">
+									                </span>
+									                <b class="massSingle" style="font-weight:normal;color:#777">正文</b>
+												</span>							
+												<span class="massSingleCheck rzrq_hide" style="margin-right:3px;">
+									                <span title="" class="checkIcon fullsearch" id="affixName" style="margin-top: 0px; display: none;">
+									                    <b class="checked"></b>
+									                    <input class="sIptTxt affixName" type="hidden" name="affixName">
+									                </span>
+									                <b class="massSingle" style="font-weight:normal;color:#777">附件名</b>
+												</span>							
+																	
+											</div>
+										</td>
+									</tr>
+									
+									<!--时间范围-->							
+									<tr>
+										<td class="title">时间范围：</td>
+										<td class="cont">
+										<!--
+											<input class="iptDate startTime" id="from" type="text" value="" name="startDate" />
+											<var>index_029</var>
+											<input class="iptDate endTime" id="to" type="text" value="" name="endDate" />
+										-->
+											<div class="selectTime">
+												<span class="s_input_bg"><input class="iptDate startTime" id="from" type="text" value="" name="startDate"></span>
+												<span class="txt">至</span>
+												<span class="s_input_bg"><input class="iptDate endTime" id="to" type="text" value="" name="endDate"></span>
+											</div>
+										</td>
+									</tr>	
+									<!--是否包含附件-->						
+									<tr>
+										<td class="title">包含附件：</td>
+										<td class="cont">			
+											<div id="includeSelected" class="s_select_bg wid90 clearfix">
+												<span class="txt">不限</span>
+												<span class="arrow"></span>
+												<input class="affix" name="attr" type="hidden" value="">
+											</div>
+											<ul class="popBox selectAttach">
+												<li datavalue="" class="selected"><span>不限</span></li>
+												<li datavalue="1"><span>包含</span></li>
+												<li datavalue="0"><span>不包含</span></li>
+											</ul>
+										</td>
+									</tr>	
+									
+									<!--已读/未读-->						
+									<tr>
+										<td class="title">已读/未读：</td>
+										<td class="cont">	
+											<div id="readSlected" class="s_select_bg wid90 clearfix">
+												<span class="txt">不限</span>
+												<span class="arrow"></span>
+												<input class="read" name="read" type="hidden" value="">
+											</div>
+											<ul class="popBox selectStatus">
+												<li class="selected" datavalue=""><span>不限</span></li>
+												<li datavalue="1"><span>已读</span></li>
+												<li datavalue="0"><span>未读</span></li>
+											</ul>
+										</td>
+									</tr>	
+									
+									<tr>
+										
+										<td class="f_btns" colspan="2">
+											<input class="aBtn sub confirmBtn" name="" type="button" value="搜索">
+											<input class="aBtn showSuper cancelBtn" name="" type="button" value="取消">
+										</td>
+									</tr>											
+									
+								</tbody></table>
+							</form>
+						</ul>
+					</div>
+					
+					<!--通讯录 搜索弹出框-->
+					<div class="popBox searchBox_address">
+						<ul class="mailSearch sLine">
+							<li class="searchMoreText qy clearfix">
+								<h3>组织通讯录</h3>
+								<h4>
+									包含
+									<span class="blue3" style="color:#449bc3"></span> 的联系人
+								</h4>
+							</li>
+							<li class="searchMoreText gr clearfix">
+								<h3>个人通讯录</h3>
+								<h4>
+									包含
+									<span class="blue3" style="color:#449bc3"></span> 的联系人
+								</h4>
+							</li>
+						</ul>
+					</div>
+					
+					
+				</div>
+				
+				<!-- 右侧区域 -->
+				<div class="head_r_part">
+					<ul class="nav">
+						<li class=""><a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" class="home" title="首页"></a></li>
+						<li class="selected"><a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" id="linkToAdd" title="邮箱" class="mail"></a>
+						<input type="hidden" value="/wm2e/mail/mailIndex/mailIndexAction_indexList.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;folderId=1&amp;type=1" title="邮箱"></li>
+						<li class="rzrq_hide"><a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" class="address addressSearch" title="通讯录"></a></li>
+                        <li class="navCalendar" style=""><a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_getCalendarwebUrl.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu" class="calendarLink" title="日程" target="_blank"></a></li>
+                        
+						<li class="netSaveBox" style=""><a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" class="netSave" title="网盘"></a></li>
+						<li class="OCSBox" style=""><a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" class="OCS" title="在线客服"></a></li>
+					</ul>
+					
+					<div class="left">
+						<h1><a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" class="txtArr"><img class="userIcon" src="./263邮箱_files/userImageAction_getHeadImage.do"></a></h1>
+					</div>
+					
+					<div id="homeOptions" class="headListPlugin popBox" style="display:none;">
+						<div class="arrow"></div>
+						
+						<div class="profileTitle" id="linkInfo">
+							<a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#">
+							<p class="headPic"><img class="userIcon" src="./263邮箱_files/userImageAction_getHeadImage.do"></p>
+							<div class="intro">
+									<p><b class="userName">谌榕</b><b class="icon rzrq_hide"></b></p>
+									<p class="wid">rchen@dongdasz.com</p>
+							</div>
+							</a>
+						</div>
+						
+						<ul class="lm">
+                        	<li class="liops" id="skinBox">
+								<a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" id="linkSkin">换肤</a>
+								<ul class="lm headSkinList popBox wid160" style="display:none;">
+									<li datalink="skin_default" class="changeSkin">红色简约</li>
+									<li datalink="skin_blue" class="changeSkin">勇者前行</li>
+									<li datalink="skin_brown" class="changeSkin">经典木纹</li>
+									<li datalink="skin_green" class="changeSkin">绿意风情</li>
+									<li datalink="skin_pink" class="changeSkin">粉色回忆</li>
+									<li datalink="skin_cyan" class="changeSkin">青青幽境</li>	
+									<li datalink="skin_black" class="changeSkin">时尚酷黑</li>	
+									<li datalink="skin_jinbaby" class="changeSkin">金色时光</li>
+                                    <li datalink="skin_original" class="changeSkin sortDot">商务办公</li>							
+								</ul>	
+							</li>
+							<li class="liops">
+								<a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" id="linkFrame">布局</a>
+								<ul class="lm headSkinList hideFrame popBox wid160" style="display:none;">
+									<li id="LRLayout" class="changeList sortDot" value="2">左右布局</li>
+									<li id="ListLayout" class="changeList" value="3">列表布局</li>
+								</ul>
+							</li>
+							<li class="liops clear263Logo rzrq_hide"><a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" id="linkHelp">帮助</a></li>
+						<!-- 	<li class="liops clear263Logo rzrq_hide"><a href="#" id="linkFeedback"><var>index_014</var></a></li>   -->
+							<li class="liops tLine"><a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" id="mailsetManage">设置</a></li>
+							<li class="liops"><a href="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true#" id="linkLogOut">退出</a></li>
+						</ul>
+					</div>
+				</div>
+			</td>
+        </tr>
+    </tbody></table>
+   
+	<script type="text/javascript" src="./263邮箱_files/jqueryUiMin.js.下载"></script>
+		<script type="text/javascript" src="./263邮箱_files/nicescrollmin.js.下载"></script>
+		<script type="text/javascript" src="./263邮箱_files/mailTas.js.下载"></script>
+		
+		<script type="text/javascript" src="./263邮箱_files/indexJs.js.下载"></script>
+	<!-- 新修改的头部 end -->
+		<table class="frameset" width="100%">
+			<tbody><tr>
+				<td class="setWidthTd">
+					<table cellpadding="0" cellspacing="0" width="100%" class="headColorLine">
+						<tbody><tr>
+							<td width="201" valign="top" class="toolBoxBg">
+								<!-- 判斷信任登錄地點 -->
+								
+								
+								<iframe id="treeBox" frameborder="0" scrolling="no" width="201" src="./263邮箱_files/folderAction_folderTreeList.html" allowtransparency="true" style="margin: 0px; padding: 0px; height: 724px;"></iframe>
+							</td>
+							<td class="toolBoxBg mailContent" valign="top">
+								<!-- 判斷信任登錄地點 -->
+								
+								
+								<iframe id="tabsHome" class="resize current" width="100%" scrolling="no" height="100%" frameborder="0" allowtransparency="true" src="./263邮箱_files/mailIndexAction_indexList.html" conid="tabsHome" name="tabsHome" style="margin: 0px; padding: 0px; height: 724px;"></iframe>
+								<!--处理IE7 loading计算错误的问题 点位
+								<div id="visibality" style="height:0px;">&nbsp;</div>-->
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+				<td class="tabsTd" style="width:74px;vertical-align:top;display:none;">
+					<div class="rightTabs" style="display:none;">
+						<div id="tabMargin" style="height: 30px;"></div>
+						<div id="tabCon" class="tabsContent" style="margin: 0px; padding: 0px; height: 697px;">
+							<ul class="tabBox clearfix"><!--tabs标签-->
+								<li class="tabsHome current" style="" title="收件箱" shownum="0" tabid="tabsHome" hometype="mail">
+									<span class="icon tabs_js_mail"></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</td>		
+			</tr>
+		</tbody></table>
+		
+		<div class="aTips"></div>
+		<div class="aTips2"></div>
+
+		<ul class="sepTips" style="right:10px; top:30px; width:180px; display: none">
+            <li class="dot" style="margin-left:155px;">.</li>
+            <li>在"选项"菜单下，您可以设置邮箱页面的显示布局，还可以选择自己喜欢的皮肤风格。</li>
+            <li><input class="knownBtn" id="sysTipBtn" name="" type="button" value="知道了"><input class="closeBtn" id="tipHideBtn" name="" type="button" value=" "></li>
+        </ul>
+
+
+		<form name="subForm" id="subForm" method="post" action="https://mail.263.net/wm2e/mail/login/show/loginShowAction_loginShow.do?usr=rchen@dongdasz.com&amp;sid=MXI5YzFoMmU2bjZAOGQ2bzBu&amp;isp_domain=&amp;useCDN=0&amp;ssl=true" target="tabsHome">
+			<!--<input name="action" class="subInp action" type="hidden" value="query" />-->
+			<input name="folderId" class="subInp belongFolder" type="hidden" value="">
+            <input name="type" class="subInp selFolderType" type="hidden" value="">
+			<input name="qstr" class="subInp qstr" type="hidden" value="">
+            <input name="usr" class="subInp usr" type="hidden" value="">
+            <input name="sid" class="subInp sid" type="hidden" value="">
+			<input name="start" class="subInp start" type="hidden" value="">
+			<input name="keyInfo" class="subInp keyInfo" type="hidden" value="">
+			<input name="sort" class="subInp sort" type="hidden" value="">
+		</form>
+	
+
+</body></html>
